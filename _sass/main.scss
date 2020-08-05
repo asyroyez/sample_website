@@ -1,0 +1,25 @@
+/* MOBILE STYLES (DEFAULT) */
+
+/* GLOBAL */
+body {
+  font-size: 62.5%;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.4;
+}
+
+main {
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+hr {
+  display: none;
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 768px) {
+}
