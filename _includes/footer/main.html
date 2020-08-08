@@ -1,3 +1,7 @@
 <footer>
-  <h3>Footer Goes Here</h3>
+  {% for item in site.data.socialmedia %}
+  <a href="{{ item.link }}" {% if page.url == item.link %}class="socialmedia" {% endif %}>
+    {{ item.name }}
+  </a>
+  {% endfor %}
 </footer>
