@@ -2,3 +2,9 @@
   link: /
 - name: Blog
   link: /blog.html
+- name: Portfolio
+  link: /portfolio.html
+- name: Content
+  link: /content.html
+- name: Art
+  link: /art.html
